@@ -53,24 +53,72 @@ Expected Output:
  */
 
 
-string number = Console.ReadLine();
+//string number = Console.ReadLine();
 
-int n;
+//int n;
 
-bool caseU = int.TryParse(number, out n);
+//bool caseU = int.TryParse(number, out n);
 
-int x = 0;
-if (n > 51)
+//int x = 0;
+//if (n > 51)
+//{
+//    x = (n - 51) * 3;
+//}
+//else
+//{
+//    x = 51 - n;
+//}
+
+
+//Console.WriteLine(x);
+
+
+////////////////////////////////
+
+
+
+/*
+ * 
+ 3. Write a C# Sharp program to check two given integers, and return true if one of them is 30 or if their sum is 30.
+
+Sample Input:
+30, 0
+25, 5
+20, 30
+20, 25
+Expected Output:
+True
+True
+True
+False
+
+ */
+
+
+string num = Console.ReadLine();
+
+int a;
+
+bool casea = int.TryParse(num, out a);
+
+
+string num2 = Console.ReadLine();
+int b;
+bool caseb = int.TryParse(num2, out b);
+int result = a + b;
+
+bool x;
+if (a == 30 || b == 30 || result == 30)
 {
-    x = (n - 51) * 3;
+    x = true;
 }
 else
 {
-    x = 51 - n;
+    x = false;
 }
 
-
 Console.WriteLine(x);
+
 
 
 
