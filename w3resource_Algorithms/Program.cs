@@ -11,28 +11,66 @@ Expected Output:
 */
 
 
-string first = Console.ReadLine();
+//string first = Console.ReadLine();
 
-string second = Console.ReadLine();
+//string second = Console.ReadLine();
 
-int number1;
-int number2;
+//int number1;
+//int number2;
 
-bool case1 = int.TryParse(first, out number1);
-bool case2 = int.TryParse(second, out number2);
+//bool case1 = int.TryParse(first, out number1);
+//bool case2 = int.TryParse(second, out number2);
 
 
-int Sum = 0;
-if (number1 != number2)
+//int Sum = 0;
+//if (number1 != number2)
+//{
+//    Sum = number1 + number2;
+//}
+//if(number1 == number2)
+//{
+//    Sum = (number1 + number2) * 3;
+//}
+
+//Console.WriteLine(Sum);
+
+
+///////////////////////////////////////////////////////////
+
+
+
+/* 
+2. Write a C# Sharp program to get the absolute difference between n and 51. If n is broader than 51 return triple the absolute difference.
+
+Sample Input:
+53
+30
+51
+Expected Output:
+6
+21
+0
+ */
+
+
+string number = Console.ReadLine();
+
+int n;
+
+bool caseU = int.TryParse(number, out n);
+
+int x = 0;
+if (n > 51)
 {
-    Sum = number1 + number2;
+    x = (n - 51) * 3;
 }
-if(number1 == number2)
+else
 {
-    Sum = (number1 + number2) * 3;
+    x = 51 - n;
 }
 
-Console.WriteLine(Sum);
+
+Console.WriteLine(x);
 
 
 
