@@ -1,0 +1,15 @@
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\bin\Debug\net7.0\w3resource_Algorithms.exe
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\bin\Debug\net7.0\w3resource_Algorithms.deps.json
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\bin\Debug\net7.0\w3resource_Algorithms.runtimeconfig.json
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\bin\Debug\net7.0\w3resource_Algorithms.dll
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\bin\Debug\net7.0\w3resource_Algorithms.pdb
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.csproj.AssemblyReference.cache
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.AssemblyInfoInputs.cache
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.AssemblyInfo.cs
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.dll
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\refint\w3resource_Algorithms.dll
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.pdb
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\w3resource_Algorithms.genruntimeconfig.cache
+C:\Users\Eliya\OneDrive\Masaüstü\C#\w3resource_Algorithms\w3resource_Algorithms\obj\Debug\net7.0\ref\w3resource_Algorithms.dll
