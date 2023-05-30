@@ -95,31 +95,135 @@ False
  */
 
 
-string num = Console.ReadLine();
+//string num = Console.ReadLine();
 
-int a;
+//int a;
 
-bool casea = int.TryParse(num, out a);
+//bool casea = int.TryParse(num, out a);
 
 
-string num2 = Console.ReadLine();
-int b;
-bool caseb = int.TryParse(num2, out b);
-int result = a + b;
+//string num2 = Console.ReadLine();
+//int b;
+//bool caseb = int.TryParse(num2, out b);
+//int result = a + b;
 
-bool x;
-if (a == 30 || b == 30 || result == 30)
+//bool x;
+//if (a == 30 || b == 30 || result == 30)
+//{
+//    x = true;
+//}
+//else
+//{
+//    x = false;
+//}
+
+//Console.WriteLine(x);
+
+
+/////////////////////////////////
+
+
+
+
+/*
+ 
+4. Write a C# Sharp program to check a given integer and return true if it is within 10 of 100 or 200.
+
+Sample Input:
+103
+90
+89
+Expected Output:
+True
+True
+False
+ */
+
+
+
+
+/////////////////////////////////
+///
+
+// X nomreli task  arrayin uzunlugu qeder soz iste sozleri arraya doldur eger eyni soz tekrar daxil olarsa error ver
+
+
+//Console.WriteLine("Enter a number for the length of the array:");
+//string l = Console.ReadLine();
+//int length;
+
+//bool case1 = int.TryParse(l, out length);
+
+//if (case1 == false)
+//{
+//    Console.WriteLine("you have to enter a number!!!!");
+//}
+//else
+//{
+
+//    int i = 1;
+
+
+//    while (true)
+//    {
+//        string[] arry = new string[length];
+//        Console.WriteLine("Enter words:");
+//        string newWords = Console.ReadLine();
+//        arry[i] = newWords;
+//        i++;
+//    }
+//}
+
+
+
+
+
+
+
+//Console.ReadLine();
+
+/////////////////////////////////////////////////////////////
+
+
+/* 4.Write a C# Sharp program to check a given integer and return true if it is within 10 of 100 or 200.
+
+
+Sample Input:
+103
+90
+89
+Expected Output:
+True
+True
+False
+
+*/
+
+Console.WriteLine("Enter a number");
+string number = Console.ReadLine();
+
+int num;
+
+bool check = int.TryParse(number, out num);
+bool value;
+
+if (check == false)
 {
-    x = true;
+    Console.WriteLine("you have to enter a number!!!!");
+}
+
+
+
+if(num >= 90 && num <= 110 || num >=190 && num<= 210)
+{
+    value = true;
 }
 else
 {
-    x = false;
+    value = false;
 }
 
-Console.WriteLine(x);
 
-
-
+Console.WriteLine(value);
 
 
